@@ -12,6 +12,7 @@ class TabBarScreen extends StatelessWidget {
           backgroundColor: Color(0xFF2B3230),
         ),
         appBar: AppBar(
+          toolbarHeight: 120,
           elevation: 0,
           title: Text(
             'TabBar Screen',
@@ -28,6 +29,7 @@ class TabBarScreen extends StatelessWidget {
                 children: [
                   const CircleAvatar(
                     backgroundColor: Colors.pink,
+                    radius: 35,
                   ),
                   const SizedBox(
                     height: 5,
@@ -44,6 +46,7 @@ class TabBarScreen extends StatelessWidget {
                 children: [
                   const CircleAvatar(
                     backgroundColor: Colors.pink,
+                    radius: 35,
                   ),
                   const SizedBox(
                     height: 5,
@@ -60,6 +63,7 @@ class TabBarScreen extends StatelessWidget {
                 children: [
                   const CircleAvatar(
                     backgroundColor: Colors.pink,
+                    radius: 35,
                   ),
                   const SizedBox(
                     height: 5,
@@ -76,6 +80,7 @@ class TabBarScreen extends StatelessWidget {
                 children: [
                   const CircleAvatar(
                     backgroundColor: Colors.pink,
+                    radius: 35,
                   ),
                   const SizedBox(
                     height: 5,
@@ -92,6 +97,7 @@ class TabBarScreen extends StatelessWidget {
                 children: [
                   const CircleAvatar(
                     backgroundColor: Colors.pink,
+                    radius: 35,
                   ),
                   const SizedBox(
                     height: 5,
@@ -108,6 +114,7 @@ class TabBarScreen extends StatelessWidget {
                 children: [
                   const CircleAvatar(
                     backgroundColor: Colors.pink,
+                    radius: 35,
                   ),
                   const SizedBox(
                     height: 5,
@@ -124,6 +131,7 @@ class TabBarScreen extends StatelessWidget {
                 children: [
                   const CircleAvatar(
                     backgroundColor: Colors.pink,
+                    radius: 35,
                   ),
                   const SizedBox(
                     height: 5,
